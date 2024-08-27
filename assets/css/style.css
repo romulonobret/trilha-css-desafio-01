@@ -76,3 +76,37 @@ body {
   .banner .banner-content button:hover {    
       color: rgb(83, 175, 255);
   }
+
+  main {
+    text-align: center;
+    width: 100%;    
+  }
+
+  main h2 {  
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: 700px;
+  line-height: 38px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  }
+
+  main p {
+   max-width: 30%;
+    color: white;
+  }
+
+  #course-content .modules-list .module {
+    color: white;
+    width: 530px;
+    margin: 0 auto 24px;
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    padding: 16px;
+    border-radius: 100px;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+  }
+  
